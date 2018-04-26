@@ -9,24 +9,65 @@
     <link rel="stylesheet" href="/Aula_06/div_span.css">
 
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         div {
             border: 1px solid #000;
             margin: 2px;
+            height: 200px;
+            width: 200px;
+            line-height: 200px;
+            text-align: center;
+            color: white;
+        }
+
+        #vermelho {
+            background-color: red;
+            top: 0;
+            left: 0;
+        }
+
+        #azul {
+            background-color: blue;
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+
+        #verde {
+            background-color: green;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+
+        #amarelo {
+            background-color: yellow;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+
+        #preta {
+            background-color: #000;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -100px;
+            margin-left: -100px;
         }
     </style>
 </head>
 
 <body>
-    <span style="background-color: purple">CONTEUDO DO SPAN</span>
-    <span>CONTEUDO DO SPAN</span>
-
-    <div>CONTEUDO DA DIV</div>
-    <div>CONTEUDO DA DIV</div>
-    <p>Lorem ipsum
-        <span>sit amet, consectetur</span>
-        adipisicing elit. Architecto cumque a consequatur, consectetur hic, rerum porro accusantium repellendus debitis molestias
-        maxime voluptatibus cupiditate, dignissimos atque quasi eveniet. Rerum, atque ipsam
-    </p>
+    <div id="vermelho">CONTEUDO DA DIV</div>
+    <div id="azul">CONTEUDO DA DIV</div>
+    <div id="verde">CONTEUDO DA DIV</div>
+    <div id="amarelo">CONTEUDO DA DIV</div>
+    <div id="preta">CONTEUDO DA DIV</div>
 </body>
 
 </html>

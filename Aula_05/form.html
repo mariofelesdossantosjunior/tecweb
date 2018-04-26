@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario Html5</title>
+</head>
+
+<body>
+
+    <form action="form.php" method="POST">
+
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" autofocus>
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" size="10" maxlength="10" minlength="8">
+        <br>
+
+        <label for="sexo">Sexo</label>
+        <input type="radio" name="sexo" id="sexoMasculino" value="masculino">Masculino
+        <input type="radio" name="sexo" id="sexoFeminino" value="feminino">Feminino
+        <input type="radio" name="sexo" id="sexoIndefinido" value="indefinido">Indefinido
+        <br>
+
+        <label for="aceitar">Termos</label>
+        <input type="checkbox" name="aceitar" id="aceitar">Aceitar os termos
+        <br>
+
+        <label for="arquivo">Arquivo:</label>
+        <input type="file" name="arquivo" id="arquivo">
+        <br>
+
+        <input type="hidden" name="oculto">
+        <br>
+
+        <label for="estados">Estados</label>
+        <select name="estados" id="estados">
+            <option selected>Estado</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SC">Santa Catarina</option>
+        </select>
+        <br>
+
+        <label for="nascimento">Data nascimento</label>
+        <input type="date" name="nascimento" id="nascimento">
+
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+
+</html>

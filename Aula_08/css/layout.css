@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+.menuHeader {
+    background-color: #000;
+    overflow: hidden;
+}
+
+.menuHeader a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    float: left;
+}
+
+.menuHeader a:hover {
+    background-color: darkgrey;
+    color: #000;
+}
+
+main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colunaEsquerda {
+    width: 75%;
+    float: left;
+}
+
+.colunaDireita {
+    width: 25%;
+    float: right;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#imagem {
+    height: 100px;
+}
+
+.imagemFalsa {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/*Deixando o layout responsivo*/
+@media screen and (max-width: 800px) {
+    .colunaEsquerda,
+    .colunaDireita {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .menuHeader a{
+        float: none;
+        width: 100%;
+    }
+}

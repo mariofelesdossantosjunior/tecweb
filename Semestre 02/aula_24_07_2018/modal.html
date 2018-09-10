@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<!--conteudo-->
+<div class="container">
+    <h2>Exemplo de Modal</h2>
+    <button class="btn btn-primary" data-toggle="modal" data-target="#meuModal">Abrir Modal</button>
+    <!--MOdal-->
+    <div class="modal fade" id="meuModal" data-backdrop="static">
+        <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <h4>Cabeçalho do Modal</h4>
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!--//Header-->
+
+                <!--Conteudo-->
+                <div class="modal-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, quas quasi! Assumenda eligendi
+                        exercitationem facere. Atque, eum, saepe! Aliquam deleniti dolores eos, eum eveniet
+                        exercitationem
+                        harum iusto non reprehenderit voluptatibus.
+                    </p>
+                </div>
+                <!--//Conteudo-->
+
+                <!--Footer-->
+                <div class="modal-footer">
+                    <button class="btn btn-success">Enviar</button>
+                    <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                </div>
+                <!--//Footer-->
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- JAVASCRIPT -->
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

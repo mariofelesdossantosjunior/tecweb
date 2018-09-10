@@ -1,0 +1,17 @@
+.menu{
+    background-color: aquamarine;
+}
+.logo{
+    background-color: red;
+}
+.lateral{
+    background-color: black;
+}
+.artigos{
+    background-color: white;
+}
+footer{
+    background-color: brown;
+    color: white;
+    height: 100px;
+}

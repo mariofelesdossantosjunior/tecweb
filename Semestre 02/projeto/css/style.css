@@ -1,0 +1,13 @@
+body{
+    padding-top: 54px;
+}
+
+.carousel-item{
+    height: 65vh;    
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+    -o-background-size: cover; /* Opera */
+    -moz-background-size: cover; /* Mozila */
+    -webkit-background-size: cover; /* Chrome */
+}
